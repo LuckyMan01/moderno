@@ -305,3 +305,41 @@
         font-size: 15px;
     }
 }
+//end adventeges
+//start author
+.author{
+    margin-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 750px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    &__box{
+        width: 100%;
+        max-width: 650px;
+        min-height: 215px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $green;
+    }
+    &__title{
+        color: #fff;
+        line-height: 30px;
+        font-size: 29px;
+        margin-right: 45px;
+        max-width: 260px;
+        span{
+            @include f700;
+        }
+    }
+    &__link{
+        font-size: 18px;
+        line-height: 36px;
+        padding: 14px 40px;
+        background-color: #fff;
+    }
+
+}
