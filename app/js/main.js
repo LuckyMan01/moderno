@@ -27,11 +27,11 @@ $(function(){
         $('.icon-th-large').removeClass('active');
       });
     
-      $('.icon-th-large').on('click', function(){
-        $('.product-page__items .products__item').removeClass('list');
-        $('.icon-th-large').addClass('active');
-        $('.icon-th-list').removeClass('active');
-      });
+    $('.icon-th-large').on('click', function(){
+      $('.product-page__items .products__item').removeClass('list');
+      $('.icon-th-large').addClass('active');
+      $('.icon-th-list').removeClass('active');
+    });
           
     var mixer = mixitup('.products__inner-box');
 
