@@ -3,6 +3,10 @@
 @import 'fonts';
 
 //start header
+
+.header__top{
+    background-color: #fff;
+}
 .header__top-inner{
     display: flex;
     justify-content: space-between;
@@ -102,6 +106,7 @@
     }
 }
 .basket {
+    margin-right: 20px;
     span{
     background-color: $green;
     }
@@ -112,7 +117,6 @@
     }
 }
 .user{
-    margin-left: 20px;
     margin-right: 25px;
     padding-right: 20px;
     position: relative;
@@ -186,6 +190,7 @@
 }
 
 .circle__menu{
+    z-index: 1;
     position: absolute;
     right: 0;
     top: 62px;
@@ -298,6 +303,10 @@
     .circle__info{
         line-height: 18px;
     }
+}
+.header__btn-menu,
+.menu__btn{
+    display: none;
 }
 //end header
 //start search
